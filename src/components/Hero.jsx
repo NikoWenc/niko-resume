@@ -1,5 +1,5 @@
-import React from 'react';
-import { heroContent } from '../constants';
+import React from "react";
+import { heroContent } from "../constants";
 
 const Hero = () => {
   return (
@@ -19,20 +19,20 @@ const Hero = () => {
           </p>
           <div className="flex flex-wrap gap-4 pt-4">
             <button className="hero-gradient text-on-primary px-8 py-4 rounded-md font-label font-semibold text-sm tracking-wide hover:opacity-90 transition-opacity">
-              {heroContent.cta1}
+              {heroContent.sendEmail}
             </button>
             <button className="bg-surface-container-high text-primary px-8 py-4 rounded-md font-label font-semibold text-sm tracking-wide hover:bg-surface-container-highest transition-colors">
-              {heroContent.cta2}
+              {heroContent.downloadCV}
             </button>
           </div>
         </div>
-        
+
         <div className="lg:col-span-5 relative">
           <div className="aspect-[4/5] bg-surface-container-high rounded-xl overflow-hidden shadow-2xl shadow-black/40">
-            <img 
-              src={heroContent.image} 
-              alt="Profile portrait" 
-              className="w-full h-full object-cover grayscale brightness-90 hover:grayscale-0 hover:brightness-100 transition-all duration-700" 
+            <img
+              src={heroContent.image}
+              alt="Profile portrait"
+              className="w-full h-full object-cover grayscale brightness-90 hover:grayscale-0 hover:brightness-100 transition-all duration-700"
             />
           </div>
           <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-secondary-container opacity-50 rounded-xl -z-10"></div>

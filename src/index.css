@@ -1,1 +1,30 @@
 @import "tailwindcss";
+@config "../tailwind.config.js";
+
+@theme {
+  --font-headline: "Manrope", sans-serif;
+  --font-body: "Manrope", sans-serif;
+  --font-label: "Inter", sans-serif;
+}
+
+@layer components {
+  .glass-nav {
+    background: rgba(17, 20, 21, 0.8);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+  }
+  
+  .hero-gradient {
+    background: linear-gradient(135deg, #d7e4ec 0%, #bbc8d0 100%);
+  }
+
+  .dark .glass-nav {
+    background: rgba(17, 20, 21, 0.8);
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}

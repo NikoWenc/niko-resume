@@ -26,7 +26,11 @@ const Hero = () => {
                 {heroContent.sendEmail}
               </button>
             </a>
-            <a href="path/to/your/cv.pdf" download className="w-full sm:w-auto">
+            <a
+              href="public/romnick-resume.pdf"
+              download
+              className="w-full sm:w-auto"
+            >
               <button className="w-full bg-surface-container-high text-primary px-8 py-4 rounded-md font-label font-semibold text-sm tracking-wide hover:bg-surface-container-highest transition-colors">
                 {heroContent.downloadCV}
               </button>

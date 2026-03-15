@@ -22,7 +22,8 @@ const Contact = () => {
             SEND AN EMAIL
           </a>
           <a
-            href="#"
+            href="public/romnick-resume.pdf"
+            download
             className="bg-surface-container-high text-primary border border-outline-variant/30 px-12 py-5 rounded-md font-label font-bold text-sm tracking-widest hover:bg-surface-container-highest transition-all w-full md:w-auto text-center"
           >
             DOWNLOAD CV

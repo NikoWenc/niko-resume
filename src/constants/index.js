@@ -62,13 +62,13 @@ export const projects = [
     cta: "Simple E-commerce clone",
   },
   {
-    title: "Luxe & Co.",
-    year: "2024",
-    description: "Editorial mobile shopping experience for high-end fashion.",
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuDYDj4J_ymttQKX5fnIrLCuF259lIv_o-YgTGbLb-moqU39u11wksKLg_SrYOhAm2Ngs39KW5VkrSpjXwasDTRWrbx_5wENJkaidqriI0QzrjW4tGJiAH-RYFIhyuhXsPY_SKHLExAjsMPHGu3-0x1-pAHkIWFVm7ewJ1v-rL5uQ2mF_lIVzb_gfuvwZhlclTSwg4gdM3pTCm8z_wZuHmhmXoVirgEe-kNz3nxQBhP8ATkXdKqdYvOBRnmblGIcG2OxfpGP1se8Qvc",
+    title: "Coming Soon",
+    year: "Soon",
+    description:
+      "Exciting project in the works! Stay tuned for updates on this upcoming venture that promises to deliver innovative solutions and engaging experiences.",
+    image: "#",
     link: "https://example.com/luxe",
-    cta: "Explore",
+    cta: "Coming Soon",
   },
 ];
 

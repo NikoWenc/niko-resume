@@ -40,10 +40,10 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-12">
         <div className="text-center md:text-left">
           <p className="font-label text-xs font-bold tracking-[0.2em] text-primary uppercase mb-2">
-            Portfolio
+            N I K O
           </p>
           <p className="text-on-surface-variant text-sm">
-            © 2026 Portfolio. All rights reserved.
+            © 2026 All rights reserved.
           </p>
         </div>
 

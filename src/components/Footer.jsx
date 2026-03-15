@@ -12,7 +12,7 @@ const Contact = () => {
           Inquiries
         </span>
         <h2 className="font-headline text-5xl md:text-7xl font-extrabold text-primary mb-12 tracking-tight">
-          Let's create something <br /> timeless together.
+          Contact me via Email <br /> or Download my CV.
         </h2>
         <div className="flex flex-col md:flex-row items-center justify-center gap-6">
           <a

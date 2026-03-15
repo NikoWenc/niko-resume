@@ -42,7 +42,7 @@ const Footer = () => {
             Portfolio
           </p>
           <p className="text-on-surface-variant text-sm">
-            © 2024 Portfolio. All rights reserved.
+            © 2026 Portfolio. All rights reserved.
           </p>
         </div>
 
@@ -51,6 +51,8 @@ const Footer = () => {
             <a
               key={social.name}
               href={social.href}
+              target="_blank"
+              rel="noopener noreferrer"
               className="font-label text-sm font-semibold text-on-surface hover:text-primary transition-colors"
             >
               {social.name}

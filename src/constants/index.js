@@ -1,4 +1,5 @@
 export const navLinks = [
+  { name: "N I K O", href: "#Home" },
   { name: "Home", href: "#Home" },
   { name: "Skills", href: "#Skills" },
   { name: "Projects", href: "#Projects" },
@@ -6,10 +7,10 @@ export const navLinks = [
 ];
 
 export const heroContent = {
-  label: "Digital Curator",
-  headline: "Crafting meaningful digital narratives.",
+  label: "Web Developer",
+  headline: "Romnick Pol P. Wenceslao",
   description:
-    "A multidisciplinary designer and developer focused on building high-end editorial experiences that balance sophisticated aesthetics with functional precision.",
+    "Dedicated career shifter and self-taught developer on a mission to build digital solutions that matter. I trade in logic, continuous learning, and a 'day one' mentality. Ready to contribute high-quality code and fresh perspectives to a forward-thinking development team.",
   sendEmail: "SEND AN EMAIL",
   downloadCV: "DOWNLOAD CV",
   image:
@@ -70,31 +71,16 @@ export const projects = [
     link: "https://example.com/luxe",
     cta: "Explore",
   },
-  {
-    title: "Aura Studio",
-    year: "2023",
-    description:
-      "Clean, space-driven portfolio for a world-class architecture firm.",
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuDPXtskXqw8FPoIzCtkMCMy79ZElLk3mvoM8WMCN_OgFp5YUIdcGaluar46XoPRZF2y6BLaYa_XS8XLNmqj7y-t5uZj8abyaiIKzktuasSek2meNSjEWJ4XTZhjiEYRbOGHouxwFkhLPJxKkEjbB3YTDFq_KcoIzoVf74ufSMDkt1oDN8wvGRFPvcI0gJGZ0sP7nh3EI_q1nRojgKf0ODCNs7a1wm9y0QTcrNoi6BaWUEBZz1y16LsWJJLNO01851qtjBaQb8zukvQ",
-    link: "https://example.com/aura",
-  },
-  {
-    title: "Synergy OS",
-    year: "2023",
-    description:
-      "Redefining team productivity through deep-work focused interface design.",
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuCIuk0KTPO92HCOv7Gz2NqTJKJp9QyFtCMZZAWYgsfFZytcSB2OUYiRHhS0x1uVtHuLfES2Nt7BSGksHIXD0_uUFXJs2xO0ShKGhv27Wjnc0aDpMr3qqxbJKlOB5_i2Le1z1WCjnmnyMPh2yL3NrfQWcFE6I4IsG7TDbNDMPHChJ7nYZgUUj-Am_qPeqDrz9GO8tnD0bHFi5PPvAWk6Vq6jLrvQXMYJe33lUG9svOJ7FHDIccI6mbZAUoqfVi14wwYqLWq88z_dDmk",
-    link: "https://example.com/synergy",
-  },
 ];
 
 export const footerContent = {
   quote: "“Simplicity is the ultimate sophistication.”",
   socials: [
-    { name: "LinkedIn", href: "#" },
-    { name: "GitHub", href: "#" },
-    { name: "Email", href: "#" },
+    {
+      name: "LinkedIn",
+      href: "https://www.linkedin.com/in/romnick-wenceslao/",
+    },
+    { name: "GitHub", href: "https://github.com/NikoWenc" },
+    { name: "Email", href: "mailto:nikowenceslao11@gmail.com" },
   ],
 };

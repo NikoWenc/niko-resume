@@ -37,7 +37,7 @@ export const skills = [
   {
     category: "Version Control",
     icon: "source",
-    items: ["VS Code", "Git / GitHub"],
+    items: ["VS Code", "Git", "GitHub"],
   },
   {
     category: "Deployment",
@@ -45,22 +45,21 @@ export const skills = [
     items: ["Vercel", "Netlify"],
   },
   {
-    category: "AI Tools",
+    category: "AI Tools / Design",
     icon: "auto_awesome",
-    items: ["GitHub Copilot", "Gemini / GPT-5.3"],
+    items: ["GitHub Copilot", "Gemini / GPT-5.3", "Google Stitch"],
   },
 ];
 
 export const projects = [
   {
-    title: "Vanguard Analytics",
-    year: "2024",
+    title: "Simple E-commerce clone",
+    year: "2026",
     description:
-      "Complete digital transformation for a modern investment management firm.",
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuDqLUhGXpU42-dVBxSEqfar1x11V4AXeQ3LGzFyjFSxUwfx7dbs9eEnNSyi1tEZmtIk0Q0-_YOVBeDl73F-EjQVRlAu3ge6z_ixgSrI5Fng7tVy2KfgXPIB36YgKSnaswwNHfblDIlXc96c56MgAQSa8VcqBee7k_IkYaXGP8orkIi52rp8-dFzxE0uI4aSu9x6mdqNsqRdURm4CdQcwWc3oXGLUR6Jk8msoaq0bOKs6-yvEUme8MrWD0GoO1DUvMaIIrfGrN7Tf-s",
-    link: "https://example.com/vanguard",
-    cta: "View Case Study",
+      "A simple e-commerce clone built with React.js, showcasing product listings, shopping cart functionality, and a responsive design for seamless user experience across devices hosted on Vercel.",
+    image: "public/ecommerce-clone.png",
+    link: "https://niko-shopping-cart.vercel.app",
+    cta: "Simple E-commerce clone",
   },
   {
     title: "Luxe & Co.",

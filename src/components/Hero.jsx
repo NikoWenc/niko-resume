@@ -43,7 +43,7 @@ const Hero = () => {
             <img
               src={heroContent.image}
               alt="Profile portrait"
-              className="w-full h-full object-cover grayscale brightness-90 hover:grayscale-0 hover:brightness-100 transition-all duration-700"
+              className="w-full h-full object-cover"
             />
           </div>
           <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-secondary-container opacity-50 rounded-xl -z-10"></div>

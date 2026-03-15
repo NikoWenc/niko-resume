@@ -1,8 +1,6 @@
 @import "tailwindcss";
 @config "../tailwind.config.js";
 
-/* Font variables moved to :root */
-
 @layer base {
   :root {
     --font-headline: "Manrope", sans-serif;

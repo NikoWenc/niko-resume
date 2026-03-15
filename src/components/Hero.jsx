@@ -17,14 +17,20 @@ const Hero = () => {
           <p className="text-on-surface-variant text-lg md:text-xl leading-relaxed max-w-xl">
             {heroContent.description}
           </p>
-          <div className="flex flex-wrap gap-4 pt-4">
-            <button className="hero-gradient text-on-primary px-8 py-4 rounded-md font-label font-semibold text-sm tracking-wide hover:opacity-90 transition-opacity">
-              {heroContent.sendEmail}
-            </button>
-            <button className="bg-surface-container-high text-primary px-8 py-4 rounded-md font-label font-semibold text-sm tracking-wide hover:bg-surface-container-highest transition-colors">
-              {heroContent.downloadCV}
-            </button>
-          </div>
+          <a href="mailto:nikowenceslao11@gmail.com" className="inline-block">
+            <div className="flex flex-wrap gap-4 pt-4">
+              <button className="hero-gradient text-on-primary px-8 py-4 rounded-md font-label font-semibold text-sm tracking-wide hover:opacity-90 transition-opacity">
+                {heroContent.sendEmail}
+              </button>
+            </div>
+          </a>
+          <a href="path/to/your/cv.pdf" download className="inline-block">
+            <div className="flex flex-wrap gap-4 pt-4">
+              <button className="bg-surface-container-high text-primary px-8 py-4 rounded-md font-label font-semibold text-sm tracking-wide hover:bg-surface-container-highest transition-colors">
+                {heroContent.downloadCV}
+              </button>
+            </div>
+          </a>
         </div>
 
         <div className="lg:col-span-5 relative">

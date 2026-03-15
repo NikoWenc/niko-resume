@@ -1,14 +1,14 @@
 @import "tailwindcss";
 @config "../tailwind.config.js";
 
-@theme {
-  --font-headline: "Manrope", sans-serif;
-  --font-body: "Manrope", sans-serif;
-  --font-label: "Inter", sans-serif;
-}
+/* Font variables moved to :root */
 
 @layer base {
   :root {
+    --font-headline: "Manrope", sans-serif;
+    --font-body: "Manrope", sans-serif;
+    --font-label: "Inter", sans-serif;
+
     --surface: #f8f9fa;
     --on-surface: #191c1d;
     --primary: #111d23;
@@ -23,7 +23,7 @@
     --outline: #73787a;
     --outline-variant: #c3c7ca;
     --secondary: #48626e;
-    
+
     --glass-bg: rgba(248, 249, 250, 0.8);
     --hero-gradient-start: #111d23;
     --hero-gradient-end: #263238;
@@ -63,9 +63,13 @@
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
   }
-  
+
   .hero-gradient {
-    background: linear-gradient(135deg, var(--hero-gradient-start) 0%, var(--hero-gradient-end) 100%);
+    background: linear-gradient(
+      135deg,
+      var(--hero-gradient-start) 0%,
+      var(--hero-gradient-end) 100%
+    );
     color: var(--hero-on-primary);
   }
 }

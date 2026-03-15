@@ -18,7 +18,10 @@ const Hero = () => {
             {heroContent.description}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
-            <a href="mailto:nikowenceslao11@gmail.com" className="w-full sm:w-auto">
+            <a
+              href="mailto:nikowenceslao11@gmail.com"
+              className="w-full sm:w-auto"
+            >
               <button className="w-full hero-gradient text-on-primary px-8 py-4 rounded-md font-label font-semibold text-sm tracking-wide hover:opacity-90 transition-opacity">
                 {heroContent.sendEmail}
               </button>
@@ -32,7 +35,7 @@ const Hero = () => {
         </div>
 
         <div className="lg:col-span-5 relative">
-          <div className="aspect-[4/5] bg-surface-container-high rounded-xl overflow-hidden shadow-2xl shadow-black/40">
+          <div className="aspect-4/5 bg-surface-container-high rounded-xl overflow-hidden shadow-2xl shadow-black/40">
             <img
               src={heroContent.image}
               alt="Profile portrait"

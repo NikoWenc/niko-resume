@@ -27,7 +27,7 @@ const Hero = () => {
               </button>
             </a>
             <a
-              href="public/romnick-resume.pdf"
+              href="/romnick-resume.pdf"
               download
               className="w-full sm:w-auto"
             >

@@ -13,7 +13,7 @@ export const heroContent = {
     "Dedicated career shifter and self-taught developer on a mission to build digital solutions that matter. I trade in logic, continuous learning, and a 'day one' mentality. Ready to contribute high-quality code and fresh perspectives to a forward-thinking development team.",
   sendEmail: "SEND AN EMAIL",
   downloadCV: "DOWNLOAD CV",
-  image: "/public/niko.PNG",
+  image: "/niko.PNG",
 };
 
 export const skills = [
@@ -56,7 +56,7 @@ export const projects = [
     year: "2026",
     description:
       "A simple e-commerce clone built with React.js, showcasing product listings, shopping cart functionality, and a responsive design for seamless user experience across devices hosted on Vercel.",
-    image: "public/ecommerce-clone.png",
+    image: "/ecommerce-clone.png",
     link: "https://niko-shopping-cart.vercel.app",
     cta: "Simple E-commerce clone",
   },

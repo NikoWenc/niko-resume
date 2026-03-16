@@ -13,8 +13,7 @@ export const heroContent = {
     "Dedicated career shifter and self-taught developer on a mission to build digital solutions that matter. I trade in logic, continuous learning, and a 'day one' mentality. Ready to contribute high-quality code and fresh perspectives to a forward-thinking development team.",
   sendEmail: "SEND AN EMAIL",
   downloadCV: "DOWNLOAD CV",
-  image:
-    "https://lh3.googleusercontent.com/aida-public/AB6AXuBNjcCA1c6XCzHlElRorRmhQ5CHqLLPxjIqC6lGidHUM1B6r6rFsHoCphqmMk1q7tjm4pTbF9b69UVzwz-2Yn0wm8N96TeyFrRJOGhxMriQBm2m58kokmCEvdBJykBpKWTWLCM8q5RdhbBzDIFSc7FosvmlFTU_ej63-RG81ioA0dnorAfYvCyL7Kuihxo9-2G_Yz4zI0bmNdleAichmNb8-btbyrd7GvSqW9fQ7hRGI-1W0CZEXTuVTBCoq3Mm0zJaRMGIlGfl3RQ",
+  image: "/public/niko.PNG",
 };
 
 export const skills = [

@@ -52,13 +52,13 @@ export const skills = [
 
 export const projects = [
   {
-    title: "Simple E-commerce clone",
+    title: "Simple E-commerce",
     year: "2026",
     description:
-      "A simple e-commerce clone built with React.js, showcasing product listings, shopping cart functionality, and a responsive design for seamless user experience across devices hosted on Vercel.",
+      "A simple e-commerce built with React.js, showcasing product listings, shopping cart functionality, and a responsive design for seamless user experience across devices hosted on Vercel.",
     image: "/ecommerce-clone.png",
     link: "https://niko-shopping-cart.vercel.app",
-    cta: "Simple E-commerce clone",
+    cta: "Simple E-commerce",
   },
   {
     title: "Coming Soon",

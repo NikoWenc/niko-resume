@@ -55,7 +55,7 @@ export const projects = [
     title: "Simple E-commerce",
     year: "2026",
     description:
-      "A simple e-commerce built with React.js, showcasing product listings, shopping cart functionality, and a responsive design for seamless user experience across devices hosted on Vercel.",
+      "A simple e-commerce application built with React.js that utilizes the FakeStore API for dynamic product listings and login authentication, includes shopping cart functionality, and features a responsive design for a seamless user experience across devices, deployed on Vercel.",
     image: "/ecommerce-clone.png",
     link: "https://niko-shopping-cart.vercel.app",
     cta: "Simple E-commerce",

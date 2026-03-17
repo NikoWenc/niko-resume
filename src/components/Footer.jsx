@@ -38,7 +38,7 @@ const Footer = () => {
   return (
     <footer className="bg-surface border-t border-outline-variant/30 py-16">
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-12">
-        <div className="text-center md:text-left">
+        <div className="md:flex-1 text-center md:text-left">
           <p className="font-label text-xs font-bold tracking-[0.2em] text-primary uppercase mb-2">
             N I K O
           </p>
@@ -47,7 +47,7 @@ const Footer = () => {
           </p>
         </div>
 
-        <div className="flex items-center gap-12">
+        <div className="flex items-center justify-center gap-12">
           {footerContent.socials.map((social) => (
             <a
               key={social.name}
@@ -61,7 +61,7 @@ const Footer = () => {
           ))}
         </div>
 
-        <div className="text-center md:text-right">
+        <div className="md:flex-1 text-center md:text-right">
           <p className="text-on-surface-variant text-sm font-label italic">
             {footerContent.quote}
           </p>

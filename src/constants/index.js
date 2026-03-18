@@ -38,6 +38,7 @@ export const skills = [
       "React Router",
       "Tailwind CSS",
       "TanStack Query",
+      "Axios",
     ],
     layout: "inline",
   },

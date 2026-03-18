@@ -28,7 +28,8 @@ const Hero = () => {
             </a>
             <a
               href="/romnick-resume.pdf"
-              download
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-full sm:w-auto"
             >
               <button className="w-full bg-surface-container-high text-primary px-8 py-4 rounded-md font-label font-semibold text-sm tracking-wide hover:bg-surface-container-highest transition-colors">

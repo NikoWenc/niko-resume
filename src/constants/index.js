@@ -28,13 +28,21 @@ export const skills = [
     items: ["Webpack", "Vite"],
   },
   {
-    category: "Frontend",
+    category: "Web Development / UI Frameworks",
     icon: "web",
-    items: ["HTML", "CSS", "Sass", "React.js", "React Router", "Tailwind CSS"],
+    items: [
+      "HTML",
+      "CSS",
+      "Sass",
+      "React.js",
+      "React Router",
+      "Tailwind CSS",
+      "TanStack Query",
+    ],
     layout: "inline",
   },
   {
-    category: "Version Control",
+    category: "Version Control & IDEs",
     icon: "source",
     items: ["VS Code", "Git", "GitHub"],
   },
@@ -44,7 +52,7 @@ export const skills = [
     items: ["Vercel", "Netlify"],
   },
   {
-    category: "AI Tools / Design",
+    category: "AI-Assisted Development & Design",
     icon: "auto_awesome",
     items: ["GitHub Copilot", "Gemini / GPT-5.3", "Google Stitch"],
   },

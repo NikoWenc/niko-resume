@@ -10,7 +10,7 @@ export const heroContent = {
   label: "Web Developer",
   headline: "Romnick Pol P. Wenceslao",
   description:
-    "Dedicated career shifter and self-taught developer on a mission to build digital solutions that matter. I trade in logic, continuous learning, and a 'day one' mentality. Ready to contribute high-quality code and fresh perspectives to a forward-thinking development team.",
+    "An aspiring web developer on a mission to build digital solutions that make a real impact. Driven by logic, continuous learning, and a “day one” mindset, I am eager to contribute high-quality code and fresh perspectives to a forward-thinking development team.",
   sendEmail: "SEND AN EMAIL",
   downloadCV: "DOWNLOAD CV",
   image: "/niko.PNG",

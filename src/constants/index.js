@@ -23,9 +23,9 @@ export const skills = [
     items: ["JavaScript", "SQL"],
   },
   {
-    category: "Build Tools",
+    category: "Build & Deployment Tools",
     icon: "build",
-    items: ["Webpack", "Vite"],
+    items: ["Webpack", "Vite", "Vercel", "Netlify", "Render"],
   },
   {
     category: "Web Development / UI Frameworks",
@@ -48,9 +48,9 @@ export const skills = [
     items: ["VS Code", "Git", "GitHub"],
   },
   {
-    category: "Deployment",
+    category: "Server and Database Technologies",
     icon: "cloud_upload",
-    items: ["Vercel", "Netlify"],
+    items: ["Node.js (Express)", "MongoDB (Mongoose)"],
   },
   {
     category: "AI-Assisted Development & Design",
@@ -70,13 +70,13 @@ export const projects = [
     cta: "Simple E-commerce",
   },
   {
-    title: "Coming Soon",
-    year: "Soon",
+    title: "Crud App",
+    year: "2026",
     description:
-      "Exciting project in the works! Stay tuned for updates on this upcoming venture that promises to deliver innovative solutions and engaging experiences.",
-    image: "#",
-    link: "https://example.com/luxe",
-    cta: "Coming Soon",
+      "A simple CRUD application built with React.js for the frontend and Node.js with Express.js for the backend, utilizing MongoDB for data storage. The app allows users to create, read, update, and delete records through a user-friendly interface, demonstrating full-stack development skills and deployed on Render.",
+    image: "/crud-app.png",
+    link: "https://niko-crud-app.vercel.app",
+    cta: "Crud App",
   },
 ];
 
